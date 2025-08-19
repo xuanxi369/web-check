@@ -7,23 +7,19 @@
     }
   ],
   "functions": {
-    "api/*.js": {
+    "api/*.[jt]s": {
       "maxDuration": 10
     }
   },
   "env": {
     "PLATFORM": "vercel",
     "CI": "false",
-    "CHROME_PATH": "/usr/bin/chromium",
-    "GOOGLE_CLOUD_API_KEY": "",
-    "BUILT_WITH_API_KEY": "",
-    "REACT_APP_SHODAN_API_KEY": "",
-    "REACT_APP_WHO_API_KEY": ""
+    "CHROME_PATH": "/usr/bin/chromium"
   },
   "build": {
     "env": {
       "PLATFORM": "vercel",
-      "NODE_VERSION": "22"
+      "NODE_VERSION": "22.x"
     }
   }
 }
